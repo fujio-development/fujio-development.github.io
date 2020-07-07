@@ -3,7 +3,7 @@ layout: default
 title: ":octocat: Sublime Text"
 description: ":wrench: Sublime Text3プラグインの活用"
 date: "2020/05/17"
-lastmod: "2020/05/17"
+lastmod: "2020/07/07"
 ---
 
 ## 0. はじめに
@@ -39,6 +39,7 @@ Package Controlは、Sublime Text 3のプラグインの様なもので標準的
 
 ※このメモを残す段階で少しSublime Textを使っていたのでPackage Controllをインストールしたのか、すでに内蔵  
 されるようになったのか覚えがありませんが、無い場合には以下の手順で行われます。
+(2020/07/07)インストール直後は入っていないので1-2.を参考にインストールを行う必要があります。  
 
 ### 1-2. Package Controlのインストール
 
@@ -156,9 +157,11 @@ PlantUML compiled Jar(`plantuml.jar`ファイル)と、Java(Jdk、Jreどちら�
 #### Javaのダウンロードと配置、環境変数PATH設定
 
 個々の環境によりますのでJavaのダウンロードと配置、環境設定PATH設定は省略しますが無ければ行ってください。  
+Javaはgraphvizより上に配置した方が良いかもしれません。
 
 ### 4-4. PlantUmlDiagramのプレビューの表示
 
+※Pathの設定などを行った後Sublime Text3を1度再起動する必要があるようです。  
 メニューバーの「基本設定(n)」→「Package Settings」→「PlantUmlDiagrams」→「Display Diagrams」をクリック  
 すると今度はプレビューを表示できるはずです。※表示には環境にもよりますが5秒程度の時間がかかる様です。  
 ※画像は別途保存するのではなくPlantUMLのソースファイルの置かれているディレクトリ内にpngファイルとして作成  
