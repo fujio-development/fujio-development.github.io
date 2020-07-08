@@ -3,7 +3,7 @@ layout: default
 title: ":octocat: Home"
 description: ":notebook: マークダウンメモ・Home"
 date: "2020/05/17"
-lastmod: "2020/05/17"
+lastmod: "2020/07/08"
 ---
 
 ## はじめに  
@@ -52,17 +52,17 @@ lastmod: "2020/05/17"
 [Path設定、環境変数設定(Windows)](Contents/PathSetting/PathSettingWin.md)  
 
 ## Eclipse
-[ColorThemes色の変更](Contents/Eclipse/ColorThemes/ColorThemes.md)  
+[ColorThemes色の変更](Contents/Eclipse/ColorThemes.md)  
   
-[Enterprise Java Developersの環境構築手順(Windows)](Contents/Eclipse/Install/InstallOrigin.md)  
+[Enterprise Java Developersの環境構築手順(Windows)](Contents/Eclipse/InstallOrigin.md)  
 
-[EclipseでサーバーTomcatの設定追加](Contents/Eclipse/SvrTomcat/SvrTomcat.md)  
+[EclipseでサーバーTomcatの設定追加](Contents/Eclipse/SvrTomcat.md)  
 
-[EclipseでPHP開発環境の構築手順](Contents/Eclipse/Php/EclipsePhp.md)  
+[EclipseでPHP開発環境の構築手順](Contents/Eclipse/EclipsePhp.md)  
 
-[EclipseでPHPのデバッガーXdebugを使う手順](Contents/Eclipse/Xdebug/Xdebug.md)  
+[EclipseでPHPのデバッガーXdebugを使う手順](Contents/Eclipse/Xdebug.md)  
 
-[EclipseでPHPプロジェクトが作成ができなくなった時の手順](Contents/Eclipse/Php/EclipsePhpError.md)  
+[EclipseでPHPプロジェクトが作成ができなくなった時の手順](Contents/Eclipse/EclipsePhpError.md)  
 
 ## Apache Tomcat  
 [Apache Tomcat 9.0.31以降のAJP接続について](Contents/Tomcat/Tomcat9031over.md)  
@@ -70,9 +70,9 @@ lastmod: "2020/05/17"
 ## Java  
 [Swing、Awt関連での実行時クラッシュについて](Contents/Java/AwtCrash.md)  
 
-[JDBCでSQL Serverへ接続する注意点](Contents/Java/JdbcSqlSvr/JdbcSqlSvr.md)  
+[JDBCでSQL Serverへ接続する注意点](Contents/Java/JdbcSqlSvr.md)  
   
-[JavaFx非対応でのOpenJFX環境構築手順](Contents/Java/JavaFxLeaning/LeaningCreate.md)  
+[JavaFx非対応でのOpenJFX環境構築手順](Contents/Java/LeaningCreate.md)  
 
 [Javaによるスリープ、タイマーの使い方](Contents/Java/JavaSleepTimer.md)  
 
@@ -85,12 +85,12 @@ lastmod: "2020/05/17"
 [KeyToolでJava(JVM)へSSL証明書登録手順](Contents/Java/keytool.md)  
 
 ## Maven
-[MavenプロジェクトでServletを使う手順](Contents/Maven/MavenWeb/MavenWebLeaning.md)  
+[MavenプロジェクトでServletを使う手順](Contents/Maven/MavenWebLeaning.md)  
 
 ## Spring Boot
-[Spring Bootスタータープロジェクト作成手順](Contents/SpringBoot/Leaning/LeaningCreate.md)  
+[Spring Bootスタータープロジェクト作成手順](Contents/SpringBoot/LeaningCreate.md)  
 
-[Spring Boot 内部バージョン確認](Contents/SpringBoot/Leaning/VersionCheck.md)  
+[Spring Boot 内部バージョン確認](Contents/SpringBoot/VersionCheck.md)  
 
 [Spring BootでのHTTPS通信手順](Contents/SpringBoot/SpringBootHttps.md)  
 
@@ -104,9 +104,9 @@ lastmod: "2020/05/17"
 [Android Studioの新規プロジェクト作成手順](Contents/AndroidStudio/NewProject.md):new:  
 
 ## PHP
-[Xampp一括でPHPの環境構築](Contents/Php/Xampp/XamppPhpSet.md)  
+[Xampp一括でPHPの環境構築](Contents/Php/XamppPhpSet.md)  
 
-[Apache + PHP個別でPHPの環境構築](Contents/Php/Windows/PhpWinSet.md)  
+[Apache + PHP個別でPHPの環境構築](Contents/Php/PhpWinSet.md)  
 
 ## Heroku
 [Herokuコマンド](Contents/Heroku/HerokuCmd.md)  
