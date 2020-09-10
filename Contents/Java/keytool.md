@@ -3,13 +3,16 @@ layout: default
 title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
 description: ":clipboard: KeyTool操作手順"
 date: "2020/05/17"
-lastmod: "2020/05/17"
+lastmod: "2020/09/10"
 ---
 
 ## 0. はじめに
 
 Javaが標準で内蔵している`KeyTool`と言う鍵や証明書の操作を行うアプリケーションの使い方について説明します。 
 ※KeyToolは、環境変数のPath設定を行うとスムーズですがPath設定を行わない場合はJavaのbinフォルダへ移動して行って下さい。 
+**コマンドプロンプトは管理者権限で起動して行う事**  
+keytoolエラー: java.io.FileNotFoundException: <ファイル名> (アクセスが拒否されました。)  
+となります。  
 
 <br />
 
