@@ -3,14 +3,14 @@ layout: default
 title: ":package: Microsoft Visual Studio"
 description: ":wrench: Microsoft Visual Studio 2019でIronPythonを使うための環境構築"
 date: "2020/05/17"
-lastmod: "2020/05/17"
+lastmod: "2020/10/10"
 ---
 
 ## 0. はじめに
 
 Visual Studioの標準インストールではPython関連のインストールは行われてないので2019では以下の様な画面となり、  
 Python関連のプロジェクトテンプレートが選択できないと思われる。  
-![0-1](PythonInstall0s.png)  
+![0-1](VsAddInst/PythonInstall0s.png)  
 
 <br />
 

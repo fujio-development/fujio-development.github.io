@@ -3,7 +3,7 @@ layout: default
 title: ":eyeglasses: Oracle Java、Apache Tomcat、Apache Maven、Spring Boot"
 description: ":black_nib: JavaでJDBCを使いMicrosoft SQL Serverへ接続する注意点"
 date: "2020/05/17"
-lastmod: "2020/05/17"
+lastmod: "2020/10/10"
 ---
 
 ## 1. SQL Server Browserの起動
@@ -55,7 +55,7 @@ com.microsoft.sqlserver.jdbc.SQLServerException: サーバー sqlexpress は、T
 
 ![2-1-2](JdbcSqlSvr/JdbcSqlSvr4.png)
 
-![2-1-3](JdbcSqlSvr5.png)
+![2-1-3](JdbcSqlSvr/JdbcSqlSvr5.png)
 
 ※SQL Serverの再起動を行います。  
 左リストの「SQL Serverのサービス」を選び、その中の「SQL Server(インスタンス名)」を右クリックし「再起動(T)」を選び再起動する。  
@@ -81,7 +81,7 @@ ClientConnectionId:<長いID>
     「引数」タブをクリックし、「VM引数(G)」テキストボックスに`-Djava.library.path=C:\xxx`にPathを指定する。  
     「閉じる」ボタンを押し適用する。  
 
-![3-1](JdbcSqlSvr/JdbcSqlSvr7s.png)
+![3-1](JdbcSqlSvr/JdbcSqlSvr7.png)
 
 ### **Microsoftドキュメント抜粋**
 
