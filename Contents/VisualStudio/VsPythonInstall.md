@@ -10,7 +10,7 @@ lastmod: "2020/10/10"
 
 Visual Studioの標準インストールではPython関連のインストールは行われてないので2019では以下の様な画面となり、  
 Python関連のプロジェクトテンプレートが選択できないと思われる。  
-![0-1](VsAddInst/PythonInstall0s.png)  
+![0-1](VsAddInst/VsPythonInstall0s.png)  
 
 <br />
 
